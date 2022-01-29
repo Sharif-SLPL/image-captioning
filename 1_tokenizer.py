@@ -84,7 +84,7 @@ def create_tokenizer(descriptions):
     return tokenizer
 
 
-filename = 'Flickr8k_text/train.txt'
+filename = 'train.txt'
 train = load_set(filename)
 print('Dataset: %d' % len(train))
 

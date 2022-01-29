@@ -340,7 +340,7 @@ def define_model(vocab_size, max_length):
 # train dataset
 
 # load training dataset (6K)
-filename = 'Flickr8k_text/train.txt'
+filename = 'train.txt'
 train = load_set(filename)
 print('Dataset: %d' % len(train))
 # descriptions
@@ -362,7 +362,7 @@ X1train, X2train, ytrain = create_sequences(tokenizer, max_length, train_descrip
 # dev dataset
 
 # load test set
-filename = 'Flickr8k_text/test.txt'
+filename = 'test.txt'
 test = load_set(filename)
 print('Dataset: %d' % len(test))
 # descriptions

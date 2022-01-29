@@ -228,7 +228,7 @@ def evaluate_model(model, descriptions, photos, tokenizer, max_length):
 # prepare tokenizer on train set
 
 # load training dataset (6K)
-filename = 'Flickr8k_text/train.txt'
+filename = 'train.txt'
 train = load_set(filename)
 print('Dataset: %d' % len(train))
 # descriptions
@@ -245,7 +245,7 @@ print('Description Length: %d' % max_length)
 # prepare test set
 
 # load test set
-filename = 'Flickr8k_text/test.txt'
+filename = 'test.txt'
 test = load_set(filename)
 print('Dataset: %d' % len(test))
 # descriptions
