@@ -91,7 +91,7 @@ def save_descriptions(descriptions, filename):
     file.close()
 
 
-filename = 'Flickr8k_text/farsi_8k_human.txt'
+filename = 'farsi_8k_human.txt'
 doc = load_doc(filename)
 descriptions = load_descriptions(doc)
 print('Loaded: %d ' % len(descriptions))
