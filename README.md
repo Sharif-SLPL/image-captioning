@@ -1,11 +1,10 @@
-# Image Captioning
-
 <div align="center">
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/built%20with-Python3-green.svg" alt="built with Python3" /></a>
 <a href="https://www.tensorflow.org/"><img src="https://github.com/aleen42/badges/raw/master/src/tensorflow.svg" alt="built with Tensorflow" /></a>
 <a href="https://github.com/Sharif-SLPL/image-captioning"><img src="https://github.com/aleen42/badges/raw/master/src/github.svg" alt="hosted on Github" /></a>
 </div>
 
+# Image Captioning
 Image Captioning is the process of generating textual description of an image. It uses both Natural Language Processing and Computer Vision to generate the captions. This work (Mohammad Movahedfar's master thesis) makes captions for images in Persian.
 
 | Example 1 | Example 2 |
