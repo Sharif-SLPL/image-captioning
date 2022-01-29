@@ -1,5 +1,6 @@
 #   Model Files
 tokenizer.pkl
+features.pkl
 model.h5
 
 #   Pictures
