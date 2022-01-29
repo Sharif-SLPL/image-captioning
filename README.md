@@ -5,3 +5,5 @@ Image Captioning is the process of generating textual description of an image. I
 |:--:|:--:|
 | <img src="https://user-images.githubusercontent.com/43045767/151662991-4f0d4e3d-f740-47fa-a67c-c171b7795461.jpg" alt="activities-for-younger-kids" width="300px" height="300px"> | <img src="https://user-images.githubusercontent.com/43045767/151663183-cf8f2f43-df89-41ae-9eaa-347d935e0af8.jpg" alt="activities-for-younger-kids" width="300px" height="300px"> |
 | کودکی با لباس آبی در حال بازی با توپ قرمز است  | دختربچه ای در حال بازی است |
+
+This work uses the Fliker8 Dataset available [here](https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip).
