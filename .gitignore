@@ -2,6 +2,7 @@
 tokenizer.pkl
 features.pkl
 model.h5
+descriptions.txt
 
 #   Pictures
 *.jpg
