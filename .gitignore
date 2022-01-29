@@ -1,0 +1,6 @@
+#   Model Files
+tokenizer.pkl
+model.h5
+
+#   Pictures
+*.jpg
