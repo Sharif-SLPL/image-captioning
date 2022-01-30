@@ -8,4 +8,4 @@ descriptions.txt
 *.jpg
 
 #   Dataset
-Flickr8k_Dataset/*
+Flicker8k_Dataset/*

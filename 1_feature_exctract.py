@@ -41,7 +41,7 @@ def extract_features(directory):
     return features
 
 
-directory = 'Flickr8k_Dataset/'
+directory = 'Flicker8k_Dataset/'
 features = extract_features(directory)
 print('Extracted Features: %d' % len(features))
 

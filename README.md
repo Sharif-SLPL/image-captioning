@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-This work uses the Fliker8 Dataset which is available [here](https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip). You can donwload and unzip it by command bellow:
+This work uses the Flicker8 Dataset which is available [here](https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip). You can donwload and unzip it by command bellow:
 
 ```
 wget https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
