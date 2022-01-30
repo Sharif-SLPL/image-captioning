@@ -259,7 +259,8 @@ print('Photos: test=%d' % len(test_features))
 
 filename = 'model.h5'
 
-model = load_model(filename,custom_objects={'Attention3': Attention3})
+model = load_model(filename, custom_objects={'Attention3': Attention3})
+print(model.summary())
 
 # model = load_model(filename)
 
