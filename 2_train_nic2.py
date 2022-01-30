@@ -20,7 +20,7 @@ from keras import backend as K, initializers, regularizers, constraints
 from keras.layers import Layer
 
 
-embedding_matrix = pickle.load(open('embedding_2_3072','rb'))
+# embedding_matrix = pickle.load(open('embedding_2_3072','rb'))
 
 
 def dot_product(x, kernel):
