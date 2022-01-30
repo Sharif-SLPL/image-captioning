@@ -210,4 +210,4 @@ for name in file_list:
     photo = extract_features(name)
     # generate description
     description = generate_desc(model, tokenizer, photo, max_length)
-    print(description)
+    print("{}:{}".format(name, description))
