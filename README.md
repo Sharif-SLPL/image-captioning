@@ -27,3 +27,34 @@ This work uses the Flicker8 Dataset which is available [here](https://github.com
 wget https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
 unzip Flickr8k_Dataset.zip
 ```
+
+## 1. Pre-processing
+In this section three steps of pre-processing are needed which are as fallows
+
+### Feature Extraction
+First part will extract features from Flicker8 dataset and save them into a `features.pkl` file
+
+```
+python 1_feature_exctract.py
+```
+
+### Text Preparation
+Second part will prepare texts from the `farsi_8k_human.txt` and save them into a `descriptions.txt` file
+
+```
+python 1_text_prep.py
+```
+
+### Tokenizer
+Third part will train a tokenizer based on train set image descriptions and save it into a `tokenizer.pkl`
+
+```
+python 1_tokenizer.py
+```
+
+## 2. Training
+In this section we train our Persion image captioning model based on `features.pkl`, `descriptions.txt` and `tokenizer.pkl`.
+
+```
+python 2_train_nic2.py
+```
