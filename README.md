@@ -5,7 +5,7 @@
 </div>
 
 # Image Captioning
-Image Captioning is the process of generating textual description of an image. It uses both Natural Language Processing and Computer Vision to generate the captions. This work (Mohammad Movahedfar's master thesis) makes captions for images in Persian.
+Image Captioning is the process of generating textual description of an image. It uses both Natural Language Processing and Computer Vision to generate the captions. This work (Mohammad Mohammadifar's master thesis) makes captions for images in Persian.
 
 | Example 1 | Example 2 |
 |:--:|:--:|
