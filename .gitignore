@@ -4,8 +4,5 @@ features.pkl
 model.h5
 descriptions.txt
 
-#   Pictures
-*.jpg
-
 #   Dataset
 Flicker8k_Dataset/*
