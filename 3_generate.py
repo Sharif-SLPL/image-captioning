@@ -10,6 +10,8 @@ from keras.models import load_model
 # from tensorflow.keras.layers import Layer
 from keras import backend as K, initializers, regularizers, constraints
 from keras.layers import Layer
+import sys
+
 def dot_product(x, kernel):
     if K.backend() == 'tensorflow':
         # todo: check that this is correct
@@ -192,22 +194,10 @@ max_length = 39
 # load the model
 # model = load_model('model-ep004-loss2.696-val_loss3.117-attention-final.h5')
 
-model = load_model('model.h5',custom_objects={'Attention3': Attention3})
+model = load_model('model.h5', custom_objects={'Attention3': Attention3})
 print(model.summary())
-# load and prepare the photograph
-file_list=['19-Amazing-Music-Games-And-Activities-For-Kids.jpg','25churchsmallgroup.jpg',
-           '20181109_115738.jpg','20190107_150707.jpg',
-           '111766423_4522d36e56.jpg',
-           '133189853_811de6ab2a.jpg','141755292_7a0b3364cf.jpg',
-           '166321294_4a5e68535f.jpg','541063517_35044c554a.jpg','542317719_ed4dd95dc2.jpg',
-           '2238759450_6475641bdb.jpg','2435685480_a79d42e564.jpg',
-           '3223055565_68973f5d20.jpg','3286822339_5535af6b93.jpg',
-           '3437147889_4cf26dd525.jpg','3721799573_2f470950e0.jpg',
-           '3730457171_e66dde8c91.jpg','activities-for-younger-kids_narrow.jpg',
-           ]
 
-for name in file_list:
-    photo = extract_features(name)
-    # generate description
-    description = generate_desc(model, tokenizer, photo, max_length)
-    print("{}:{}".format(name, description))
+photo_path = sys.argv[1]
+photo = extract_features(photo_path)
+description = generate_desc(model, tokenizer, photo, max_length)
+print(description)
