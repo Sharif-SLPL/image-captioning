@@ -53,7 +53,7 @@ python 1_tokenizer.py
 ```
 
 ## 2. Training
-In this section we train our Persion image captioning model based on `features.pkl`, `descriptions.txt` and `tokenizer.pkl`. This process may take a while. At the end it will make some files like `model-ep*-loss*-val_loss*-attention-final.h5` and each of them can be used for evaluation section. You can either downlowad our pretrianed model from [here](https://drive.google.com/file/d/1sB_mfQ0k0amO_vL9JXJ859KrsJpVn0Kg/view).
+In this section we train our Persion image captioning model based on `features.pkl`, `descriptions.txt` and `tokenizer.pkl`. This process may take a while. At the end it will make some files like `model-ep*-loss*-val_loss*-attention-final.h5` and each of them can be used for evaluation section. You should rename your preferred one to `model.h5`. You can either downlowad our pretrianed model from [here](https://drive.google.com/file/d/1sB_mfQ0k0amO_vL9JXJ859KrsJpVn0Kg/view).
 
 ```
 python 2_train_nic2.py
@@ -79,7 +79,7 @@ python test.py [path_to_image]
 For example for bellow picture we should have
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Sharif-SLPL/image-captioning/main/test.jpg" alt="activities-for-younger-kids" width="400px" height="400px">
+<img src="https://raw.githubusercontent.com/Sharif-SLPL/image-captioning/main/test.jpg" alt="activities-for-younger-kids" width="200px" height="200px">
 </div>
 
 ```
