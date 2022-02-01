@@ -83,5 +83,6 @@ For example for bellow picture we should have
 </div>
 
 ```
+$ python test.py test.jpg
 startseq یک زن در حال عکس گرفتن از یک صخره بزرگ است endseq
 ```
