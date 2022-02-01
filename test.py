@@ -195,7 +195,6 @@ max_length = 39
 # model = load_model('model-ep004-loss2.696-val_loss3.117-attention-final.h5')
 
 model = load_model('model.h5', custom_objects={'Attention3': Attention3})
-print(model.summary())
 
 photo_path = sys.argv[1]
 photo = extract_features(photo_path)
