@@ -79,7 +79,7 @@ python test.py [path_to_image]
 For example for bellow picture we should have
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/43045767/151663183-cf8f2f43-df89-41ae-9eaa-347d935e0af8.jpg" alt="activities-for-younger-kids" width="400px" height="400px">
+<img src="https://raw.githubusercontent.com/Sharif-SLPL/image-captioning/main/test.jpg" alt="activities-for-younger-kids" width="400px" height="400px">
 </div>
 
 ```
