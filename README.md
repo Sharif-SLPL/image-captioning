@@ -53,8 +53,35 @@ python 1_tokenizer.py
 ```
 
 ## 2. Training
-In this section we train our Persion image captioning model based on `features.pkl`, `descriptions.txt` and `tokenizer.pkl`.
+In this section we train our Persion image captioning model based on `features.pkl`, `descriptions.txt` and `tokenizer.pkl`. This process may take a while. At the end it will make some files like `model-ep*-loss*-val_loss*-attention-final.h5` and each of them can be used for evaluation section. You can either downlowad our pretrianed model from [here](https://drive.google.com/file/d/1sB_mfQ0k0amO_vL9JXJ859KrsJpVn0Kg/view).
 
 ```
 python 2_train_nic2.py
+```
+
+## 3. Evaluation and test
+In this section you can evaluate the trained model and then test it on any given image
+
+### Evaluation
+This part will evaluate the model on test data using [BLEU](https://en.wikipedia.org/wiki/BLEU) score
+
+```
+python 3_eval.py
+```
+
+### Test
+You can get the caption of your images using bellow command
+
+```
+python test.py [path_to_image]
+```
+
+For example for bellow picture we should have
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/43045767/151663183-cf8f2f43-df89-41ae-9eaa-347d935e0af8.jpg" alt="activities-for-younger-kids" width="400px" height="400px">
+</div>
+
+```
+startseq یک زن در حال عکس گرفتن از یک صخره بزرگ است endseq
 ```
