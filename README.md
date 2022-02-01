@@ -1,7 +1,16 @@
 <div align="center">
-<a href="https://www.python.org/"><img src="https://img.shields.io/badge/built%20with-Python3-green.svg" alt="built with Python3" /></a>
-<a href="https://www.tensorflow.org/"><img src="https://github.com/aleen42/badges/raw/master/src/tensorflow.svg" alt="built with Tensorflow" /></a>
-<a href="https://github.com/Sharif-SLPL/image-captioning"><img src="https://github.com/aleen42/badges/raw/master/src/github.svg" alt="hosted on Github" /></a>
+<a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/built%20with-Python3-green.svg" alt="built with Python3"/>
+</a>
+<a href="https://www.tensorflow.org/">
+    <img src="https://github.com/aleen42/badges/raw/master/src/tensorflow.svg" alt="built with Tensorflow"/>
+</a>
+<a href="https://github.com/Sharif-SLPL/image-captioning">
+    <img src="https://github.com/aleen42/badges/raw/master/src/github.svg" alt="hosted on Github"/>
+</a>
+<a href="https://colab.research.google.com/github/Sharif-SLPL/image-captioning/blob/master">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Document"/>
+</a>
 </div>
 
 # Image Captioning
